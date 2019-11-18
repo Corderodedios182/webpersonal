@@ -1,0 +1,22 @@
+{% extends 'core/base.html' %}
+
+{% block title %} Contacto {% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Contacto</h1>
+<span class="subheading">Asesoría</span>
+{% endblock %}
+
+{% block content %}
+<div class ="row">
+  <div class="col-lg-8 col-md-10 mx-auto">
+    <p>Contactame si quieres saber más sobre mi trabajo o quiere trabajar conmigo.</p>
+    <br>
+    <p><b>Teléfono:</b> 55-87-63-30-70</p>
+    <p><b>Honorarios:</b> Unos rufles (Precio base)</p>
+    <p><b>Honorarios:</b> $10 (Consultoría)</p>
+  </div>
+</div>
+{% endblock %}
